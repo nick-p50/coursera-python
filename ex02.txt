@@ -1,0 +1,7 @@
+totalSegundos = int(input("Por favor, entre com o número de segundos que deseja converter: "))
+dias = totalSegundos // 86400
+segundosRest = totalSegundos % 86400
+horas = segundosRest // 3600
+minutos = (totalSegundos // 60) % 60
+segundos = totalSegundos % 60
+print(f"{dias} dias, {horas} horas, {minutos} minutos e {segundos} segundos.")
