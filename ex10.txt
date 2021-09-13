@@ -1,0 +1,7 @@
+num = int(input("Digite um número entre 1000 e 9999 para saber a soma entre eles: "))
+unidade = num % 10
+dezena = (num // 10) % 10
+centena = ((num // 10) // 10) % 10
+milhar = (((num // 10) // 10) // 10) % 10
+soma = unidade + dezena + centena + milhar
+print(f"A soma entre {milhar} {centena} {dezena} e {unidade} vale: {soma}")
