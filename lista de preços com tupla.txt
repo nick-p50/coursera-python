@@ -1,0 +1,16 @@
+print(53 * '_')
+print('               LISTAGEM DE PREÇOS')
+print(53 * '_')
+itens = ('Lápis', 1.75, 'Borracha', 2.00, 'Caderno', 15.90, 'Estojo', 25.00,
+         'Transferidor', 4.20, 'Compasso', 9.99, 'Mochila', 120.32,
+         'Canetas', 22.30, 'livro', 34.90)
+print(itens[0], 36 * '.', 'R$   ', itens[1])
+print(itens[2], 33 * '.', 'R$    ', itens[3])
+print(itens[4], 34 * '.', 'R$   ', itens[5])
+print(itens[6], 35 * '.', 'R$   ', itens[7])
+print(itens[8], 29 * '.', 'R$    ', itens[9])
+print(itens[10], 33 * '.', 'R$   ', itens[11])
+print(itens[12], 34 * '.', 'R$ ', itens[13])
+print(itens[14], 34 * '.', 'R$   ', itens[15])
+print(itens[16], 36 * '.', 'R$   ', itens[17])
+print(53 * '_')
